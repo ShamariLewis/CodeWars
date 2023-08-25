@@ -10,7 +10,7 @@
 
 
 // Answer
-// I used indexOf array method as this method returns the first index at which a given element is found within the array.
+// I used indexOf array method as this method returns the first index at which a given element is found within the array and index cannot be a negative number.
 function distinct(arr) {
     return arr.filter((item,
         index) => arr.indexOf(item) === index);
