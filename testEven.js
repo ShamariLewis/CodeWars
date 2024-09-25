@@ -10,7 +10,5 @@
 
 function testEven(n) {
   //Your awesome code here!
-  if (n % 2 === 0) {
-    return n % 2 === 0 ? true : false;
-  }
+  return n % 2 === 0 ? true : false;
 }
