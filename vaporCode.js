@@ -8,7 +8,6 @@
 
 function vaporcode(string) {
   const newString = string.split("");
-  let removedSpace = newString.splice();
   let vaporString = newString.filter((letter) => letter !== " ");
   return vaporString.join("  ").toUpperCase();
 }
